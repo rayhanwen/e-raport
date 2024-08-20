@@ -1,0 +1,50 @@
+.DS_Store
+
+application/cache/*
+!application/cache/index.html
+
+application/logs/*
+!application/logs/index.html
+
+!application/*/.htaccess
+
+composer.lock
+tests/mocks/database/ci_test.sqlite
+
+user_guide_src/build/*
+user_guide_src/cilexer/build/*
+user_guide_src/cilexer/dist/*
+user_guide_src/cilexer/pycilexer.egg-info/*
+/vendor/
+
+# IDE Files
+#-------------------------
+/nbproject/
+.idea/*
+
+## Sublime Text cache files
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+/tests/tests/
+/tests/results/
+
+
+
+1. Perbaikan Template Admin , Landing Page , Form Login
+2. Penambahan Plugins ('datatable','sweetalert2','select2')
+3. Username siswa (NIS) Password (NIS, 6 digit terakhir)
+4. Password guru (NIK) Password (NIK, 6 digit)
+5. Validasi input data & foto siswa
+6. Filter data
+7. Ubah Password MD5 to Hash
+8.
+9.
+10.
+11.
+12.
+13.
+14.
+15.
